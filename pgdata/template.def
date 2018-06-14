@@ -1,0 +1,24 @@
+# template.def
+# 1.6.2006 sju
+
+# KEY (<...> = optional) ________________________________
+# reclen=###
+# <prefix=abc>
+# <pgname=abc>
+# <nocreate>
+# <modify=SQL STMT>
+# fieldname:startpos:length:datatype<:codelength>[params]
+#	datatype = char|decimal|code
+# index indexname=col1<,col2><[UNIQUE]>
+
+reclen=128
+prefix=ecn_
+
+acctnum:0:10:[PRIMARY KEY]
+name::20::
+favfood::20:
+weight::18:
+
+index ix_person_acctnum=acctnum[UNIQUE]
+index ix_person_name=name
+index ix_person_name_favfood=name,favfood

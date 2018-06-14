@@ -1,0 +1,42 @@
+# decimal_test.txt
+# Decimal test file
+
+cnvint 23
+cnvlong 2342343
+cnvdouble 2349399.342
+cnvfloat 9893.343
+cnvint 32.7
+cnvint 31.1
+quit
+div 344 3.34
+div 2442 234
+div 3423.34 3.1415
+mul -2342 99
+add 1234567890123 1
+add 234.23 1.0
+add 989.90989 0.0003
+add 43 0.000188
+add 482342 39.01
+add 234924 90
+add 234821 0
+add 299.0094 3492.99
+add -12 2342
+add -233.34 342336.33
+sub 34 88
+sub 349 0
+sub 34980 -234
+sub 34899.0 293.9003
+sub -19449.349 -98.09
+sub -123 93
+div 34 2
+div 10 2
+div 10.0002 2
+div 1 2
+mul 234 2
+mul 2342 2.99
+mul 10 0
+mul 34239.99 -9
+mul 342.3 3445.27
+cmp 1 2
+cmp 2 2
+cmp 2 1

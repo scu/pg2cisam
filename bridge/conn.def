@@ -1,0 +1,6 @@
+# conn.def
+# Connection info for C-ISAM to PostgreSQL
+
+# EDATA=hostname, port, database, schema, username, password
+# Sample:
+/loc_of_isam_data=localhost, 5432, db, test, user, pw123
